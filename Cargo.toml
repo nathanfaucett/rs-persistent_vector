@@ -1,0 +1,16 @@
+[package]
+name = "persistent_vector"
+version = "0.1.0"
+authors = ["nathanfaucett <nathanfaucett@gmail.com>"]
+
+keywords = ["persistent", "vector"]
+description = "persistent vector"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/nathanfaucett/rs-persistent_vector.git"
+homepage = "https://github.com/nathanfaucett/rs-persistent_vector"
+
+[dependencies]
+collection_traits = {git = "https://github.com/nathanfaucett/rs-collection_traits", features=["no_std"]}
+
+[dev-dependencies]
